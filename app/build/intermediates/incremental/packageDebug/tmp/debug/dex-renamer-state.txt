@@ -1,0 +1,4 @@
+#Thu Feb 04 22:57:39 ICT 2021
+base.0=E\:\\New folder\\projectoop-master\\DataHargaTiket\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

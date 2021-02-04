@@ -1,0 +1,29 @@
+package com.lat.DataHargatiket
+
+import android.content.Intent
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_main.*
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+
+        btn_data.setOnClickListener{
+            val intent = Intent(this, DataActivity::class.java)
+            startActivity(intent)
+        }
+
+//        btn_bos.setOnClickListener{
+//            val intent = Intent(this, UserActivity::class.java)
+//            startActivity(intent)
+//        }
+
+
+
+
+
+    }
+}
